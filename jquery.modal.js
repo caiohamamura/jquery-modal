@@ -51,7 +51,6 @@
       //AJAX
       } else {
         this.$elm = $('<div>');
-        this.$body.append(this.$elm);
         remove = function(event, modal) { modal.elm.remove(); };
         this.showSpinner();
         el.trigger($.modal.AJAX_SEND);
